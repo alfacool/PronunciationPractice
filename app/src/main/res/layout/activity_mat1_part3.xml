@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meio.materi.Mat1Part3">
+
+    <Button
+        android:id="@+id/mt1pt31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="The Vowels of English"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt31"/>
+
+    <Button
+        android:id="@+id/mt1pt32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce Ɛ sounds"
+        android:layout_below="@+id/mt1pt31"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt32"/>
+
+    <Button
+        android:id="@+id/mt1pt33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce æ sounds"
+        android:layout_below="@+id/mt1pt32"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt33"/>
+
+    <Button
+        android:id="@+id/mt1pt34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce Ə/ʌ sounds"
+        android:layout_below="@+id/mt1pt33"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt34"/>
+
+    <Button
+        android:id="@+id/mt1pt35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce ɑ sounds"
+        android:layout_below="@+id/mt1pt34"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt35"/>
+
+    <Button
+        android:id="@+id/mt1pt36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="/iy/ sleep and /ı/ slip"
+        android:layout_below="@+id/mt1pt35"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt36"/>
+
+    <Button
+        android:id="@+id/mt1pt37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="/ey/ wait; /Ɛ/ wet, and /ı/ wit"
+        android:layout_below="@+id/mt1pt36"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt37"/>
+
+    <Button
+        android:id="@+id/mt1pt38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Vowels Followed by /r/"
+        android:layout_below="@+id/mt1pt37"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt38"/>
+
+    <Button
+        android:id="@+id/mt1pt39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="/ow/boat, /ɔ/ bought, and /ɑ/ pot"
+        android:layout_below="@+id/mt1pt38"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt39"/>
+
+    <Button
+        android:id="@+id/mt1pt310"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce ɔ sounds"
+        android:layout_below="@+id/mt1pt39"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt310"/>
+
+    <Button
+        android:id="@+id/mt1pt311"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="/Ʊw/ cool, /Ʊ/ could, and /yuw/ cute"
+        android:layout_below="@+id/mt1pt310"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt311"/>
+
+    <Button
+        android:id="@+id/mt1pt312"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce Ʊ sounds"
+        android:layout_below="@+id/mt1pt311"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt312"/>
+
+    <Button
+        android:id="@+id/mt1pt313"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce e sounds"
+        android:layout_below="@+id/mt1pt312"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt313"/>
+
+    <Button
+        android:id="@+id/mt1pt314"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce i sounds"
+        android:layout_below="@+id/mt1pt313"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt314"/>
+
+    <Button
+        android:id="@+id/mt1pt315"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce I sounds"
+        android:layout_below="@+id/mt1pt314"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt315"/>
+
+    <Button
+        android:id="@+id/mt1pt316"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce aı sounds"
+        android:layout_below="@+id/mt1pt315"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt316"/>
+
+    <Button
+        android:id="@+id/mt1pt317"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce o sounds"
+        android:layout_below="@+id/mt1pt316"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt317"/>
+
+    <Button
+        android:id="@+id/mt1pt318"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce aƱ sounds"
+        android:layout_below="@+id/mt1pt317"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt318"/>
+
+    <Button
+        android:id="@+id/mt1pt319"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce ɔı sounds"
+        android:layout_below="@+id/mt1pt318"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt319"/>
+
+    <Button
+        android:id="@+id/mt1pt320"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce u sounds"
+        android:layout_below="@+id/mt1pt319"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt320"/>
+
+    <Button
+        android:id="@+id/mt1pt321"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce ju sounds"
+        android:layout_below="@+id/mt1pt320"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt321"/>
+
+
+</RelativeLayout>
+</ScrollView>
+

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meio.materi.Mat3">
+
+    <Button
+        android:id="@+id/mat3pt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 1: How to produce t sound"
+        android:layout_alignParentEnd="true"
+        android:onClick="mat3pt1"/>
+
+    <Button
+        android:id="@+id/mat3pt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 2: How to produce d sound"
+        android:layout_below="@+id/mat3pt1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mat3pt2"/>
+
+    <Button
+        android:id="@+id/mt3pt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 3: How to produce θ  sound"
+        android:layout_below="@+id/mat3pt2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt3"/>
+
+    <Button
+        android:id="@+id/mt3pt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 4: How to produce ð  sound"
+        android:layout_below="@+id/mt3pt3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt4"/>
+
+    <Button
+        android:id="@+id/mt3pt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 5: How to produce p  sound"
+        android:layout_below="@+id/mt3pt4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt5"/>
+
+    <Button
+        android:id="@+id/mt3pt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 6: How to produce b  sound"
+        android:layout_below="@+id/mt3pt5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt6"/>
+
+    <Button
+        android:id="@+id/mt3pt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 7: How to produce f  sound"
+        android:layout_below="@+id/mt3pt6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt7"/>
+
+    <Button
+        android:id="@+id/mt3pt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 8: How to produce v  sound"
+        android:layout_below="@+id/mt3pt7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt8"/>
+
+    <Button
+        android:id="@+id/mt3pt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 9: How to produce w  sound"
+        android:layout_below="@+id/mt3pt8"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt9"/>
+
+    <Button
+        android:id="@+id/mt3pt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 10: How to produce s  sound"
+        android:layout_below="@+id/mt3pt9"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt10"/>
+
+    <Button
+        android:id="@+id/mt3pt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 11: How to produce z  sound"
+        android:layout_below="@+id/mt3pt10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt11"/>
+
+    <Button
+        android:id="@+id/mt3pt12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 12: How to produce ʃ sound"
+        android:layout_below="@+id/mt3pt11"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt12"/>
+
+    <Button
+        android:id="@+id/mt3pt13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 13: How to produce  ʒ sound"
+        android:layout_below="@+id/mt3pt12"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt13"/>
+
+    <Button
+        android:id="@+id/mt3pt14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 14: How to produce  tʃ sound"
+        android:layout_below="@+id/mt3pt13"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt14"/>
+    <Button
+        android:id="@+id/mt3pt15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 15: How to produce dʒ  sound"
+        android:layout_below="@+id/mt3pt14"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt15"/>
+
+    <Button
+        android:id="@+id/mt3pt16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 16: How to produce l  sound"
+        android:layout_below="@+id/mt3pt15"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt16"/>
+    <Button
+        android:id="@+id/mt3pt17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 17: How to produce r  sound"
+        android:layout_below="@+id/mt3pt16"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt17"/>
+
+    <Button
+        android:id="@+id/mt3pt18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 18: How to produce m  sound"
+        android:layout_below="@+id/mt3pt17"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt18"/>
+
+    <Button
+        android:id="@+id/mt3pt19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 19: How to produce n  sound"
+        android:layout_below="@+id/mt3pt18"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt19"/>
+
+    <Button
+        android:id="@+id/mt3pt20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 20: How to produce ŋ  sound"
+        android:layout_below="@+id/mt3pt19"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt20"/>
+
+    <Button
+        android:id="@+id/mt3pt21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 21: How to produce h  sound"
+        android:layout_below="@+id/mt3pt20"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt21"/>
+
+    <Button
+        android:id="@+id/mt3pt22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 22: How to produce j sound"
+        android:layout_below="@+id/mt3pt21"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt22"/>
+    <Button
+        android:id="@+id/mt3pt23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 23: How to produce k  sound"
+        android:layout_below="@+id/mt3pt22"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt23"/>
+    <Button
+        android:id="@+id/mt3pt24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 24: How to produce g  sound"
+        android:layout_below="@+id/mt3pt23"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt24"/>
+    <Button
+        android:id="@+id/mt3pt25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 25: How to produce hw  sound"
+        android:layout_below="@+id/mt3pt24"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt25"/>
+    <Button
+        android:id="@+id/mt3pt26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 26: How to produce ε  sound"
+        android:layout_below="@+id/mt3pt25"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt26"/>
+    <Button
+        android:id="@+id/mt3pt27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 27: How to produce ӕ  sound"
+        android:layout_below="@+id/mt3pt26"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt27"/>
+    <Button
+        android:id="@+id/mt3pt28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 28: How to produce ә  sound"
+        android:layout_below="@+id/mt3pt27"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt28"/>
+    <Button
+        android:id="@+id/mt3pt29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 29: How to produce ɑ  sound"
+        android:layout_below="@+id/mt3pt28"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt29"/>
+    <Button
+        android:id="@+id/mt3pt30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 30: How to produce ɔ  sound"
+        android:layout_below="@+id/mt3pt29"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt30"/>
+    <Button
+        android:id="@+id/mt3pt31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 31: How to produce Ʊ  sound"
+        android:layout_below="@+id/mt3pt30"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt31"/>
+    <Button
+        android:id="@+id/mt3pt32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 32: How to produce e  sound"
+        android:layout_below="@+id/mt3pt31"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt32"/>
+    <Button
+        android:id="@+id/mt3pt33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 33: How to produce i  sound"
+        android:layout_below="@+id/mt3pt32"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt33"/>
+    <Button
+        android:id="@+id/mt3pt34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 34: How to produce ɪ sound"
+        android:layout_below="@+id/mt3pt33"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt34"/>
+    <Button
+        android:id="@+id/mt3pt35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 35: How to produce aɪ  sound"
+        android:layout_below="@+id/mt3pt34"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt35"/>
+    <Button
+        android:id="@+id/mt3pt36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 36: How to produce o  sound"
+        android:layout_below="@+id/mt3pt35"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt36"/>
+    <Button
+        android:id="@+id/mt3pt37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 37: How to produce aƱ  sound"
+        android:layout_below="@+id/mt3pt36"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt37"/>
+    <Button
+        android:id="@+id/mt3pt38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 38: How to produce ɔɪ  sound"
+        android:layout_below="@+id/mt3pt37"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt38"/>
+    <Button
+        android:id="@+id/mt3pt39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 39: How to produce u  sound"
+        android:layout_below="@+id/mt3pt38"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt39"/>
+    <Button
+        android:id="@+id/mt3pt40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercise 40: How to produce ju  sound"
+        android:layout_below="@+id/mt3pt39"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt3pt40"/>
+
+
+</RelativeLayout>
+</ScrollView>

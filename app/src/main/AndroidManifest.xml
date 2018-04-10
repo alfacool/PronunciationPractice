@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.meio.materi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Mat1" />
+        <activity android:name=".Webview" />
+        <activity android:name=".Mat2" />
+        <activity android:name=".Mat3" />
+        <activity android:name=".Aud" />
+        <activity android:name=".Mat1Part2" />
+        <activity android:name=".Mat1Part3" />
+        <activity android:name=".STT" />
+        <activity android:name=".Mat1Part7" />
+        <activity android:name=".WebviewAud" />
+        <activity android:name=".Listyt" />
+        <activity android:name=".Ytview" />
+        <activity android:name=".Listexercise" />
+        <activity android:name=".Exerciseview"></activity>
+    </application>
+
+</manifest>

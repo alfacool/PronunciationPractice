@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meio.materi.Mat2">
+
+    <Button
+        android:id="@+id/mt2pt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 1: t and d sound focus on t"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt1"/>
+
+    <Button
+        android:id="@+id/mt2pt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 2: t and d sound focus on d"
+        android:layout_below="@+id/mt2pt1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt2"/>
+
+    <Button
+        android:id="@+id/mt2pt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 3: s and θ sound focus on θ"
+        android:layout_below="@+id/mt2pt2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt3"/>
+
+    <Button
+        android:id="@+id/mt2pt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 4: ð and θ sound focus on ð"
+        android:layout_below="@+id/mt2pt3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt4"/>
+
+    <Button
+        android:id="@+id/mt2pt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 5: p and b sound focus on p"
+        android:layout_below="@+id/mt2pt4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt5"/>
+
+    <Button
+        android:id="@+id/mt2pt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 6: p and b sound focus on b"
+        android:layout_below="@+id/mt2pt5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt6"/>
+
+    <Button
+        android:id="@+id/mt2pt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 7: f and v sound focus on f"
+        android:layout_below="@+id/mt2pt6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt7"/>
+
+    <Button
+        android:id="@+id/mt2pt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 8: f and v sound focus on v"
+        android:layout_below="@+id/mt2pt7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt8"/>
+
+    <Button
+        android:id="@+id/mt2pt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 9: w, v, hw and r sound focus on w"
+        android:layout_below="@+id/mt2pt8"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt9"/>
+
+    <Button
+        android:id="@+id/mt2pt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 10: s and z sound focus on s"
+        android:layout_below="@+id/mt2pt9"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt10"/>
+
+    <Button
+        android:id="@+id/mt2pt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 11: s and z sound focus on z"
+        android:layout_below="@+id/mt2pt10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt11"/>
+
+    <Button
+        android:id="@+id/mt2pt12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 12: s, ∫, t∫ and ʒ  sound focus on ∫"
+        android:layout_below="@+id/mt2pt11"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt12"/>
+
+    <Button
+        android:id="@+id/mt2pt13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 13: z, ʒ, ∫, and dʒ  sound focus on ʒ"
+        android:layout_below="@+id/mt2pt12"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt13"/>
+
+    <Button
+        android:id="@+id/mt2pt14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 14: t∫,  ∫, and dʒ  sound focus on t∫"
+        android:layout_below="@+id/mt2pt13"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt14"/>
+
+    <Button
+        android:id="@+id/mt2pt15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 15: t∫, dʒ , g, and dʒ  sound focus on dʒ"
+        android:layout_below="@+id/mt2pt14"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt15"/>
+
+    <Button
+        android:id="@+id/mt2pt16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 16: l and r sound focus on l"
+        android:layout_below="@+id/mt2pt15"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt16"/>
+
+    <Button
+        android:id="@+id/mt2pt17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 17: l and r sound focus on r"
+        android:layout_below="@+id/mt2pt16"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt17"/>
+
+    <Button
+        android:id="@+id/mt2pt18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 18: m and n sound focus on m"
+        android:layout_below="@+id/mt2pt17"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt18"/>
+
+    <Button
+        android:id="@+id/mt2pt19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 19: m and n sound focus on n"
+        android:layout_below="@+id/mt2pt18"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt19"/>
+
+    <Button
+        android:id="@+id/mt2pt20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 20: g, ŋ, n, and ŋk sounds focus on ŋ"
+        android:layout_below="@+id/mt2pt19"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt20"/>
+
+    <Button
+        android:id="@+id/mt2pt21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 20: focus on h sounds"
+        android:layout_below="@+id/mt2pt20"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt21"/>
+
+    <Button
+        android:id="@+id/mt2pt22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 22: j, r, and dƷ focus on j"
+        android:layout_below="@+id/mt2pt21"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt22"/>
+
+    <Button
+        android:id="@+id/mt2pt23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 23: k and g focus on k"
+        android:layout_below="@+id/mt2pt22"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt23"/>
+
+    <Button
+        android:id="@+id/mt2pt24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 24: k, g, and ŋ focus on g"
+        android:layout_below="@+id/mt2pt23"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt24"/>
+
+    <Button
+        android:id="@+id/mt2pt25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 25: h,hw, and w focus on hw"
+        android:layout_below="@+id/mt2pt24"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt25"/>
+
+    <Button
+        android:id="@+id/mt2pt26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 26: ε ,ӕ, ә and ɑ focus on ε"
+        android:layout_below="@+id/mt2pt25"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt26"/>
+
+    <Button
+        android:id="@+id/mt2pt27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 27: ӕ, e, ɪ and ε  focus on ӕ"
+        android:layout_below="@+id/mt2pt26"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt27"/>
+
+    <Button
+        android:id="@+id/mt2pt28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 28: ә, ɑ, ӕ and ɪ  focus on ә"
+        android:layout_below="@+id/mt2pt27"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt28"/>
+
+    <Button
+        android:id="@+id/mt2pt29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 29: ɑ, ә, ӕ and o  focus on ɑ"
+        android:layout_below="@+id/mt2pt28"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt29"/>
+
+    <Button
+        android:id="@+id/mt2pt30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 30: ɔ, o, ә and ɑ focus on ɔ"
+        android:layout_below="@+id/mt2pt29"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt30"/>
+
+    <Button
+        android:id="@+id/mt2pt31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 31: ɔ, o, ә and ɑ focus on ɔ"
+        android:layout_below="@+id/mt2pt30"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt31"/>
+
+    <Button
+        android:id="@+id/mt2pt32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 32: e, ӕ, i, and ε focus on e"
+        android:layout_below="@+id/mt2pt31"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt32"/>
+
+    <Button
+        android:id="@+id/mt2pt33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 33: i, ɪ, ε and e focus on i"
+        android:layout_below="@+id/mt2pt32"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt33"/>
+
+    <Button
+        android:id="@+id/mt2pt34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 34: ɪ, i, ӕ and ε  focus on ɪ"
+        android:layout_below="@+id/mt2pt33"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt34"/>
+
+    <Button
+        android:id="@+id/mt2pt35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 35: aɪ, ε, i, ai  and o  focus on ai"
+        android:layout_below="@+id/mt2pt34"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt35"/>
+
+    <Button
+        android:id="@+id/mt2pt36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 36: o, ɔ, ɑ and ә focus on o"
+        android:layout_below="@+id/mt2pt35"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt36"/>
+
+    <Button
+        android:id="@+id/mt2pt37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 37: aƱ, ɑ, ɔ and o focus on aƱ"
+        android:layout_below="@+id/mt2pt36"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt37"/>
+
+    <Button
+        android:id="@+id/mt2pt38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 38: ɔi, aɪ, ɔ and o  focus on ɔi"
+        android:layout_below="@+id/mt2pt37"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt38"/>
+
+    <Button
+        android:id="@+id/mt2pt39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 39: u, Ʊ, o and ju focus on u"
+        android:layout_below="@+id/mt2pt38"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt39"/>
+
+    <Button
+        android:id="@+id/mt2pt40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Exercises 40: ju, u, e, and o focus on ju"
+        android:layout_below="@+id/mt2pt39"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt2pt40"/>
+
+</RelativeLayout>
+</ScrollView>

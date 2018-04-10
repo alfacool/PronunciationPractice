@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meio.materi.Mat1Part2">
+
+    <Button
+        android:id="@+id/mt1pt21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="Consonant Overview"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt21"/>
+
+    <Button
+        android:id="@+id/mt1pt22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce t sound"
+        android:layout_below="@+id/mt1pt21"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt22"/>
+
+    <Button
+        android:id="@+id/mt1pt23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce d sound"
+        android:layout_below="@+id/mt1pt22"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt23"/>
+
+    <Button
+        android:id="@+id/mt1pt24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce θ sound"
+        android:layout_below="@+id/mt1pt23"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt24"/>
+
+    <Button
+        android:id="@+id/mt1pt25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce ð sound"
+        android:layout_below="@+id/mt1pt24"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt25"/>
+
+    <Button
+        android:id="@+id/mt1pt26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce p sound "
+        android:layout_below="@+id/mt1pt25"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt26"/>
+
+    <Button
+        android:id="@+id/mt1pt27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce b sound"
+        android:layout_below="@+id/mt1pt26"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt27"/>
+
+    <Button
+        android:id="@+id/mt1pt28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce f sound"
+        android:layout_below="@+id/mt1pt27"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt28"/>
+
+    <Button
+        android:id="@+id/mt1pt29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce v sound"
+        android:layout_below="@+id/mt1pt28"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt29"/>
+
+    <Button
+        android:id="@+id/mt1pt210"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce w sound"
+        android:layout_below="@+id/mt1pt29"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt210"/>
+
+    <Button
+        android:id="@+id/mt1pt211"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce s sound"
+        android:layout_below="@+id/mt1pt210"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt211"/>
+
+    <Button
+        android:id="@+id/mt1pt212"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce z sound"
+        android:layout_below="@+id/mt1pt211"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt212"/>
+
+    <Button
+        android:id="@+id/mt1pt213"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce ∫ sound"
+        android:layout_below="@+id/mt1pt212"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt213"/>
+
+    <Button
+        android:id="@+id/mt1pt214"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce ʒ sound"
+        android:layout_below="@+id/mt1pt213"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt214"/>
+
+    <Button
+        android:id="@+id/mt1pt215"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce t∫ sound"
+        android:layout_below="@+id/mt1pt214"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt215"/>
+
+    <Button
+        android:id="@+id/mt1pt216"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce dʒ sound"
+        android:layout_below="@+id/mt1pt215"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt216"/>
+
+    <Button
+        android:id="@+id/mt1pt217"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="–s Endings"
+        android:layout_below="@+id/mt1pt216"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt217"/>
+
+    <Button
+        android:id="@+id/mt1pt218"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce l sound"
+        android:layout_below="@+id/mt1pt217"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt218"/>
+
+    <Button
+        android:id="@+id/mt1pt219"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce r sound"
+        android:layout_below="@+id/mt1pt218"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt219"/>
+
+    <Button
+        android:id="@+id/mt1pt220"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce m sound"
+        android:layout_below="@+id/mt1pt219"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt220"/>
+
+    <Button
+        android:id="@+id/mt1pt221"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce n sound"
+        android:layout_below="@+id/mt1pt220"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt221"/>
+
+    <Button
+        android:id="@+id/mt1pt222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce ŋ sound"
+        android:layout_below="@+id/mt1pt221"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt222"/>
+
+    <Button
+        android:id="@+id/mt1pt223"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce h sounds"
+        android:layout_below="@+id/mt1pt222"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt223"/>
+
+    <Button
+        android:id="@+id/mt1pt224"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Beginning Consonants Clusters"
+        android:layout_below="@+id/mt1pt223"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt224"/>
+
+    <Button
+        android:id="@+id/mt1pt225"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Joining Final Consonants"
+        android:layout_below="@+id/mt1pt224"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt225"/>
+
+    <Button
+        android:id="@+id/mt1pt226"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce j sounds"
+        android:layout_below="@+id/mt1pt225"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt226"/>
+
+    <Button
+        android:id="@+id/mt1pt227"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce k sounds"
+        android:layout_below="@+id/mt1pt226"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt227"/>
+
+    <Button
+        android:id="@+id/mt1pt228"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce g sounds"
+        android:layout_below="@+id/mt1pt227"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt228"/>
+
+    <Button
+        android:id="@+id/mt1pt229"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="How to produce hw sounds"
+        android:layout_below="@+id/mt1pt228"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt229"/>
+</RelativeLayout>
+</ScrollView>

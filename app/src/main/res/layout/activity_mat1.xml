@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meio.materi.Mat1">
+
+    <Button
+        android:id="@+id/mat1pt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="Part 1: About American IPA"
+        android:layout_alignParentEnd="true"
+        android:onClick="mat1pt1"/>
+
+    <Button
+        android:id="@+id/mat1pt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Part 2: CONSONANTS"
+        android:layout_below="@+id/mat1pt1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mat1pt2"/>
+
+    <Button
+        android:id="@+id/mat1pt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Part 3: VOWELS"
+        android:layout_below="@+id/mat1pt2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mat1pt3"/>
+
+    <Button
+        android:id="@+id/mat1pt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mat1pt3"
+        android:layout_marginTop="18dp"
+        android:text="Part 4: SYLLABLES AND STRESS WITHIN WORDS"
+        android:layout_alignParentEnd="true"
+        android:onClick="mat1pt4"/>
+
+    <Button
+        android:id="@+id/mat1pt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mat1pt4"
+        android:layout_marginTop="18dp"
+        android:text="Part 5: RHYTHM"
+        android:layout_alignParentEnd="true"
+        android:onClick="mat1pt5"/>
+
+    <Button
+        android:id="@+id/mat1pt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mat1pt5"
+        android:layout_marginTop="18dp"
+        android:text="Part 6: INTONATION"
+        android:layout_alignParentEnd="true"
+        android:onClick="mat1pt6"/>
+
+    <Button
+        android:id="@+id/mat1pt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mat1pt6"
+        android:layout_marginTop="18dp"
+        android:text="Part 7: JAZZ CHANTS"
+        android:layout_alignParentEnd="true"
+        android:onClick="mat1pt7"/>
+
+
+</RelativeLayout>

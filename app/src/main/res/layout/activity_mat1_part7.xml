@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meio.materi.Mat1Part7">
+
+    <Button
+        android:id="@+id/mt1pt71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="1. Sh! Sh! Baby's Sleeping!"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt71"/>
+
+    <Button
+        android:id="@+id/mt1pt72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="2. Big Mouth John Brown"
+        android:layout_below="@+id/mt1pt71"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt72"/>
+
+    <Button
+        android:id="@+id/mt1pt73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="3. Sally Speaks Spanish, But Not Very Well"
+        android:layout_below="@+id/mt1pt72"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt73"/>
+
+    <Button
+        android:id="@+id/mt1pt74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mt1pt73"
+        android:layout_marginTop="18dp"
+        android:text="4. It’s Got to be Somewhere"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt74"/>
+
+    <Button
+        android:id="@+id/mt1pt75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mt1pt74"
+        android:layout_marginTop="18dp"
+        android:text="5. Tall Trees"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt75"/>
+
+    <Button
+        android:id="@+id/mt1pt76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mt1pt75"
+        android:layout_marginTop="18dp"
+        android:text="6. What Are You Going to Do at Two?"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt76"/>
+
+    <Button
+        android:id="@+id/mt1pt77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mt1pt76"
+        android:layout_marginTop="18dp"
+        android:text="7. Meet Me in the Morning"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt77"/>
+
+    <Button
+        android:id="@+id/mt1pt78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mt1pt77"
+        android:layout_marginTop="18dp"
+        android:text="8. Personal Questions"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt78"/>
+
+    <Button
+        android:id="@+id/mt1pt79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mt1pt78"
+        android:layout_marginTop="18dp"
+        android:text="9. More Bad Luck"
+        android:layout_alignParentEnd="true"
+        android:onClick="mt1pt79"/>
+
+</RelativeLayout>
+</ScrollView>
